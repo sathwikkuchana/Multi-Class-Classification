@@ -2,6 +2,9 @@
 
 This project is aimed at building a multi-class image classification model using TensorFlow. The model is designed to classify images into nine different categories: airplanes, bonsai, chandelier, faces_easy, hawksbill, ketch, leopards, motorbikes, and watch.
 
+![image](https://github.com/sathwikkuchana/Multi-Class-Classification/assets/37955149/518ad39d-57f2-4ea2-ad5c-a80a280f02b8)
+
+
 # Project Structure
 README.md: This file provides an overview of the project.
 image_classification.ipynb: This Jupyter Notebook contains the Python code for data preparation, model creation, training, and evaluation.
@@ -31,10 +34,15 @@ The split_data function is used to split the dataset into training and testing s
 # Model Architecture
 The neural network model consists of convolutional layers followed by max-pooling layers and dense layers. Dropout regularization is applied to prevent overfitting.
 
+![image](https://github.com/sathwikkuchana/Multi-Class-Classification/assets/37955149/781c784d-7b07-4116-b6a2-fdb0e7c92135)
+
+
 # Training
 The training data is augmented using ImageDataGenerator to improve model generalization.
 RMSprop optimizer is used with categorical cross-entropy loss for model training.
 The training process is visualized using plots for accuracy and loss over epochs.
+![image](https://github.com/sathwikkuchana/Multi-Class-Classification/assets/37955149/8e7dc919-d71b-44dd-bdb5-e51411045f57)
+
 # Evaluation
 The trained model is evaluated on the validation set to assess its performance.
 The final accuracy and loss metrics are displayed in the output.
