@@ -41,7 +41,7 @@ The neural network model consists of convolutional layers followed by max-poolin
 The training data is augmented using ImageDataGenerator to improve model generalization.
 RMSprop optimizer is used with categorical cross-entropy loss for model training.
 The training process is visualized using plots for accuracy and loss over epochs.
-![image](https://github.com/sathwikkuchana/Multi-Class-Classification/assets/37955149/8e7dc919-d71b-44dd-bdb5-e51411045f57)
+![image](https://github.com/sathwikkuchana/Multi-Class-Classification/assets/37955149/440ba901-e5b6-4863-b3af-702ad40cb585)
 
 # Evaluation
 The trained model is evaluated on the validation set to assess its performance.
